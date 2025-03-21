@@ -1,0 +1,8 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+  max-width: 800px; /* Optional: Limit the width for better readability on larger screens */
+  margin: 0 auto; /* Center the list horizontally */
+}

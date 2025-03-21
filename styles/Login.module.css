@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+</boltArtifact>
+
+  <boltAction type="file" filePath="pages/register.js">import { useState } from 'react';
+import styles from '../styles/Register.module.css';
+import { useRouter } from 'next/router';
+
+const RegisterPage = () => {
+  const [email, setEmail] = useState
